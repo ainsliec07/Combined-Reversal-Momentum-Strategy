@@ -1,9 +1,9 @@
 # Combined Reversal Momentum Strategy
 
-#Key results:
+## Key results:
 2.45 backtested Sharpe (unadjusted), 1.88
 
-#Dependencies:
+## Dependencies:
 python-binance, pandas, numpy, sklearn, statsmodel, cvxpy
 
 This project first identifies a correlated basket in the cryptocurrency market, with the target cryptocurrency being Bitcoin. During the process of refining the reversal strategy, a momentum strategy was uncovered, which accounts for the bullish markets that started to emerge in 2024. The strategies have been combined to account for the different trends that occur when bearish, bullish, or mean-reverting markets dominate.
